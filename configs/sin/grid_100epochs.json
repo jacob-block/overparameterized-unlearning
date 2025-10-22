@@ -1,0 +1,13 @@
+{
+    "alg_list": ["Retrain","GD", "GA", "NGD", "NGP", "L1Sparse", "Ridge", "MinNormOG"],
+    "retain_access_pct": [1.0],
+    "num_epochs": [100],
+    "lr": [1e-3, 5e-4, 1e-4],
+    "noise_sig": [0.1, 0.5, 1.0],
+    "reg_coef": [0.1, 1.0, 3.0],
+    "reg_coef_decay": [0.3, 0.6, 0.9],
+    "ga_coef": [1e-3, 1e-2, 1e-1, 1.0],
+    "num_gd_epochs": [25,50],
+    "proj_pd": [1,2],
+    "grad_sample_size": [50]
+}

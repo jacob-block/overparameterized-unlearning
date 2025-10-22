@@ -1,0 +1,11 @@
+{
+    "opt": {
+        "lr": 0.1,
+        "weight_decay": 1e-4,
+        "momentum": 0.9
+    },
+    "sched": {
+        "step_size": 25,
+        "gamma": 0.3
+    }
+}
