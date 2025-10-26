@@ -1,6 +1,5 @@
 import os
 import torch
-from torch import nn
 from torch.optim import AdamW
 from torch.nn import MSELoss
 from tqdm import tqdm
